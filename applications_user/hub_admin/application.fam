@@ -1,0 +1,11 @@
+App(
+appid="hub_admin_panel",
+name="Admin Hub Control",
+apptype=FlipperAppType.EXTERNAL,
+entry_point="admin_hub_app",
+requires=["gui", "storage", "dialogs"],
+stack_size=4 * 1024,
+fap_category="GPIO",
+fap_author="You & AI",
+fap_description="Physical admin panel and serial bridge for ESP32 Hub",
+)
